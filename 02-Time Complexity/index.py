@@ -7,6 +7,13 @@ for i in range(100): # better to use xrange
 for i in xrange(100):
 	for j in xrange(100):
 		print(i, j)
+# input size required time complexity
+# n ≤ 10 O(n!)
+# n ≤ 20 O(2n)
+# n ≤ 500 O(n3)
+# n ≤ 5000 O(n2)
+# n ≤ 106 O(nlogn) or O(n)
+# n is large O(1) or O(logn)
 
 # Maximum Subarray Sum
 arr = [-1, 2, 4, -3, 5, 2, -5, 2]
